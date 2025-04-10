@@ -81,7 +81,7 @@ def get_price(game_element): # Precios / Prices
         return float(clean_price) if clean_price else None
         
     except Exception as e:
-        print(f"⚠️ Error extrayendo precio: {str(e)}")
+        print(f"Error extrayendo precio: {str(e)}")
         return None
 
 def get_reviews(game_url): # Reseñas / Reviews
@@ -108,7 +108,7 @@ def get_reviews(game_url): # Reseñas / Reviews
                 
         return None
     except Exception as e:
-        print(f"⚠️ Error obteniendo reseñas: {str(e)}")
+        print(f"Error obteniendo reseñas: {str(e)}")
         return None
 
 # Tipos de reseña Steam / Types of Steam reviews
